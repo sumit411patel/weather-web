@@ -195,3 +195,4 @@ wheel==0.48.0
 wrapt==2.1.2
 xhtml2pdf==0.2.15
 zstandard==0.23.0
+whitenoise
