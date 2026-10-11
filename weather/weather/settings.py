@@ -30,6 +30,8 @@ ALLOWED_HOSTS = ['localhost','127.0.0.1','weather-web-xnsc.onrender.com']
 
 CSRF_TRUSTED_ORIGINS = [
     "https://weather-web-xnsc.onrender.com",
+    "http://127.0.0.1:8000/weather/home",
+    "http://localhost/weather/home",
 ]
 # Application definition
 
@@ -51,7 +53,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "whitenoise.middleware.WhiteNoiseMiddleware",
 ]
