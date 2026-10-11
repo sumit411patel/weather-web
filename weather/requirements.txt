@@ -136,7 +136,6 @@ python-dotenv==1.2.2
 python-json-logger==4.1.0
 pytz==2026.1.post1
 PyWavelets==1.9.0
-pywinpty==3.0.3
 PyYAML==6.0.1
 pyzmq==27.1.0
 qrcode==7.4.2
